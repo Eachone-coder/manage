@@ -4,7 +4,7 @@ return array(
         'user' => 'root',
         'password' => 'root',
         'dbname' => 'manage',
-        'host' => '127.0.0.1',
+        'host' => '39.108.213.220',
     ),
     'app' => array(
         'default_platform' => 'Home',
