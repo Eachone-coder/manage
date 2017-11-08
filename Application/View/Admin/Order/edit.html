@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -53,7 +53,7 @@
                     </div>
 
                     <div class="am-form-group">
-                        <input readonly type="text" class="tpl-form-input"  placeholder="预约状态" style="width: 500px;margin: auto;" name="status" value="<?=(($row['status'] ==0) ? '失败' : ($row['status']==1?'成功':($row['status']==2 ?'失败' :'用户取消预约')))?>" >
+                        <input readonly type="text" class="tpl-form-input"  placeholder="预约状态" style="width: 500px;margin: auto;"  value="<?=(($row['status'] ==0) ? '失败' : ($row['status']==1?'成功':($row['status']==2 ?'失败' :'用户取消预约')))?>" >
                     </div>
                     <div class="am-form-group">
                         <input readonly type="text" class="tpl-form-input"  placeholder="备注" style="width: 500px;margin: auto;" name="content" value="<?=$row['content']?>" >
